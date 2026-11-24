@@ -68,14 +68,14 @@ export function Home() {
   return (
     <main>
       <HeroEditorialSplit />
-      <section className="works-section wrap" id="works">
+      <section className="works-section home-works wrap" id="works">
         <div className="section-heading">
-          <h2>Наши работы</h2>
+          <h2>Гитары из мастерской</h2>
           <p>
             Готовые инструменты JM и реализованные
             <br className="desktop" /> индивидуальные проекты.
           </p>
-          <a href="/works">Смотреть все работы →</a>
+          <a href="/works">Все работы</a>
         </div>
         <div className="works-grid">
           {works.map((w) => (
